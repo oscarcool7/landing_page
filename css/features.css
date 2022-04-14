@@ -1,0 +1,25 @@
+.features {
+  padding: 40px 0;
+}
+
+.features-item {
+  padding: 20px;
+}
+
+.feature-image {
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.feature-photo {
+  width: 100%;
+  height: auto;
+}
+
+.features .text-medium,
+.features .title-small {
+  color: rgb(6, 6, 112);
+  max-width: 80%;
+  padding-left: 40px;
+}

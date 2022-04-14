@@ -1,0 +1,30 @@
+.intro {
+  background-image: url("../images/intro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: rgb(205, 205, 253);
+  padding: 240px 300px 360px;
+}
+
+.intro .text-medium {
+  color: rgb(205, 205, 253);
+  width: 30em;
+}
+
+@media (max-width: 920px) {
+  .intro {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    width: auto;
+  }
+
+  .intro .text-medium {
+    width: 20em;
+  }
+}
