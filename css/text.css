@@ -37,6 +37,19 @@ body {
   text-align: center;
 }
 
+.top {
+  padding-top: 20px;
+}
+
+.contact .title-medium {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+.contact .text-medium {
+  font-size: 20px;
+}
+
 @media (max-width: 920px) {
   .title-large {
     padding-top: 30px;

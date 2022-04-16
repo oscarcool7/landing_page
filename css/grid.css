@@ -16,3 +16,10 @@
     width: auto;
   }
 }
+
+@media (max-width: 440px) {
+  .column-1-2 {
+    float: none;
+    width: auto;
+  }
+}
