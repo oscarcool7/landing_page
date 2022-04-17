@@ -4,6 +4,7 @@
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .button-green {
@@ -17,4 +18,11 @@
   background: green;
   color: whitesmoke;
   margin-bottom: 40px;
+}
+
+@media (max-width: 450px) {
+  .contact {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
